@@ -1,0 +1,394 @@
+
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	
+	background: #f0f0f0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto; 
+	font-size: 14px;
+	line-height: 1.42em;
+	font-family: 'Helvetica';
+
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.empty{
+	height: 115px;
+}
+.footer{
+	height: 115px;
+	margin-top: -115px;
+	position: relative;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb3e38+1,ff8f30+100 */
+	background: #fb3e38; /* Old browsers */
+background: -moz-linear-gradient(top, #fb3e38 1%, #ff8f30 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fb3e38 1%,#ff8f30 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fb3e38 1%,#ff8f30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin-bottom: 20px;
+}
+
+.header__top:before, .header__top:after {
+	display: table;
+	content: "";
+}
+.header__top:after {
+	clear:both;
+}
+.header__logo, .header__menu {
+	float: left;
+}
+
+
+.header__logo {
+	width: 65%;
+}
+
+.header__menu {
+	width:35%;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo__pic {
+	display: block;
+	max-width: 175px;
+	max-height: 55px;
+}
+
+
+.menu__item{
+	display: inline-block;
+}
+
+.menu {
+	text-align: justify;
+}
+
+.menu:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+}
+
+
+.menu__link {
+	display: block;
+	padding: 10px;
+}
+
+
+.menu__link_button {
+	padding: 10px;
+	position: relative;
+	border: 2px solid #ffaf6a;
+	border-radius: 50px;
+}
+
+
+
+.menu__link-text {
+	color: #fff;
+	font-size: 15px;
+}
+
+
+.header__top {
+	padding: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(255,255,255, .2);
+}
+
+
+
+/* nav */
+.nav__list {
+	text-align: justify;
+}
+
+.nav__list:after {
+	content: "";
+	width: 100%;
+	height: 0;
+	display:inline-block;
+}
+
+.nav__item {
+	display:inline-block;
+}
+
+.nav__link>.nav__title:hover {
+	color:#ffc968;
+}
+
+.nav__title {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/* breadcrumb */
+
+.breadcrumbs__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+ .breadcrumbs__item:first-child .breadcrumbs__link:before {
+  display: none;
+  margin-left: 0;
+}
+
+
+
+.breadcrumbs__link {
+	font-size: 11px;
+	color: #fa3f37;
+}
+
+.breadcrumbs__link:before {
+	content: "";
+	display: inline-block;
+	background: url("../images/arrow.png") 0 0 no-repeat;
+	width: 16px;
+	height: 7px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+
+
+/* container */
+
+.content-wrapper .container  {
+	background:#fff;
+}
+
+.content-wrapper .container:before, .content-wrapper .container:after {
+	display: table;
+	content: "";
+}
+.content-wrapper .container:after {
+	clear:both;
+}
+
+
+.content{
+	width: 100%;
+	border: 1px solid #e7e7e7;
+}
+
+
+
+.products__item:before, .products__item:after {
+	display: table;
+	content: "";
+}
+.products__item:after {
+	clear:both;
+}
+
+.products__item {
+	position: relative;
+	border-bottom: 1px solid #e7e7e7;
+}
+.products__slideshow {
+	float:left;
+	width: 30%;
+	padding: 25px;
+	
+}
+
+.slideshow__display {
+	height: 235px;
+	position: relative;
+}
+
+.slideshow__display-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: auto;
+	max-width: 95%;
+	max-height: 95%;
+}
+
+.products__desc{
+	float: left;
+	width: 45%;
+	padding: 40px 25px;
+}
+
+
+
+.products__title {
+	margin-top: 0;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.products__desc-content {
+	font-size: 14px;
+	color:#676767;
+}
+
+.products__desc-content li {
+	margin-bottom: 10px;
+}
+
+.products__desc-content li span {
+	font-weight: bold;
+}
+
+
+.products__report {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 25%;
+	padding: 20px;
+}
+
+.products__report-inner {
+	position: relative;
+	height: 100%;
+	padding: 20px;
+}
+
+.products__complain {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	display: block;
+	padding: 10px 40px;
+	background: #ffBe2f;
+	color: #fff;
+	border-radius: 50px;
+}
+
+
+
+/* pagination */
+
+.pagination {
+	text-align: center;
+	
+}
+
+.pagination .container {
+	background: #fff;
+	padding: 30px 0;
+}
+
+.pagination__control, .pagination__list {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pagination__list {
+	margin: 0 26px;
+}
+.pagination__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.pagination__control {
+	width: 11px;
+	height: 18px;
+	background-image: url("../images/sprite.png");
+	background-repeat: no-repeat;
+}
+
+.pagination__control-left {
+	background-position: left top;
+}
+
+.pagination__control-left:hover {
+	background-position: right bottom;
+}
+
+
+.pagination__control-right {
+	background-position: left bottom;
+}
+
+.pagination__control-right:hover {
+	background-position: right top;
+}
+
+
+.pagination__link {
+	width: 40px;
+	text-align: center;
+	display: block;
+}
+
+
+.pagination__link:hover {
+	color: red;
+}
+
+
+
+.footer .container {
+	padding-top: 15px;
+	text-align: center;
+}
