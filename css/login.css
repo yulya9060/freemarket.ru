@@ -51,3 +51,10 @@ background: linear-gradient(to bottom, #fb3e38 1%,#ff8f30 100%); /* W3C, IE10+, 
 	font-size: 15px;
 	text-decoration: underline;
 }
+
+
+input+span:before
+{
+    color: red;
+    content: " *";
+}
