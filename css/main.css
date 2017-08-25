@@ -202,7 +202,7 @@ background: linear-gradient(to bottom, #fb3e38 1%,#ff8f30 100%); /* W3C, IE10+, 
 .breadcrumbs__link:before {
 	content: "";
 	display: inline-block;
-	background: url("../images/arrow.png") 0 0 no-repeat;
+	background: url("../img/arrow.png") 0 0 no-repeat;
 	width: 16px;
 	height: 7px;
 	margin-right: 15px;
@@ -353,7 +353,7 @@ background: linear-gradient(to bottom, #fb3e38 1%,#ff8f30 100%); /* W3C, IE10+, 
 .pagination__control {
 	width: 11px;
 	height: 18px;
-	background-image: url("../images/sprite.png");
+	background-image: url("../img/sprite.png");
 	background-repeat: no-repeat;
 }
 

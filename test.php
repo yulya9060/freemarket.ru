@@ -119,3 +119,6 @@ class f_gamer {
 $pieces = explode(" ", $pizza);
 echo $pieces[0]; // кусок1
 echo $pieces[1]; // кусок2
+
+
+phpinfo();
